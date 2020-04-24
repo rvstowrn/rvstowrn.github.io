@@ -20,7 +20,7 @@ nav{
 
 .landing{
 	height: 80vh;
-	background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.45)),url('assets/lnd.jpg');
+	background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.45)),url('assets/heroBg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
@@ -33,12 +33,26 @@ nav{
 	width: 80%;
 }
 .about{
-	background: #121639; 
+	background: #121639;
+	padding: 10% 0; 
 }
-.skills{
-	background: #161b44; 
+.box{
+	padding: 4px;
+	border:2px solid red;
+	border-radius: 5px;
+	letter-spacing: 0.1rem;
 }
-.skills > .container{
+.box > h6{
+	padding: 0;
+	margin: 0;
+}
+
+
+.skill{
+	background: #161b44;
+	padding: 10% 0; 
+}
+.skill > .container{
 	background: rgba(0,0,0,0.4);	
 	border-radius: 15px;
 	margin-top:15px;
