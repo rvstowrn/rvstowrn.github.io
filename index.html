@@ -1,211 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Rishabh Verma Portfolio</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<style type="text/css">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Rishabh Verma Portfolio</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" href="./assets/rv.png">
+	</head>
+	<body>
+		<div class="landing scrollspy" id="landing">
+			<nav>
+				<div class="nav-wrapper">
+					<a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a href="#about">About</a></li>
+						<li><a href="#skill">Skills</a></li>
+						<li><a href="#certification">Certifications</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<ul class="sidenav" id="mobile-demo">
+				<li><a href="#about">About</a></li>
+				<li><a href="#skill">Skills</a></li>
+				<li><a href="#certification">Certifications</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<img src="./assets/heroFg.jpg"  height="300"><br>
+			<h4 class="amber-text">Rishabh Verma</h4>
+			<p>An Aspiring Software Developer</p>
+		</div>
+
+
+		<div class="about scrollspy" id="about">
+			<div class="container row about_flex">
+				<div class="col l4 s12">
+					<img src="./assets/heroFg.jpg" class="z-depth-3" width="100%" height="100%">
+				</div>
+				<div class="col l8 s12 flex_vertical_distant">
+					<div>
+						<p class="heading">About Me</p>
+						<p class="flow-text">My name is Rishabh Verma. I am a final year CSE student with 
+						good experience in full stack and android application developemnt.</p>
+					</div>
+					<div class="box">
+						<h5 class="underline">Eductional Background</h5>
+						Computer Science Engineering (Sixth Semester)<br>
+						SRM Institute of Science and Technology : 83.6%<br>
+						12th CBSE Board<br>
+						DAV Adityapaur,Jamshedpur : 78.4%<br>
+						10th ICSE Board<br>
+						Don Bosco Academy, Digha : 88.7%<br>		
+				</div>
+				</div>
+			</div>
+		</div>
+
 		
-		
-	</style>
-</head>
-<body>
-	
-	<div class="landing">
-		<nav>
-		    <div class="nav-wrapper">
-			    <a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
-			    <ul id="nav-mobile" class="right hide-on-med-and-down">
-			        <li><a href="#about">About</a></li>
-			        <li><a href="#skill">Skills</a></li>
-			        <li><a href="#certification">Certifications</a></li>
-			        <li><a href="#experience">Experience</a></li>
-			        <li><a href="#contact">Contact</a></li>
-			    </ul>
+		<div class="skill scrollspy" id="skill">
+			<h4 class="white-text center">Skills</h4><br>
+			<div class="container">
+				<span class="material-icons circle md-36 left">web</span>
+				<h6 style="text-align: left;padding-left: 10px;letter-spacing: 0.1rem;">
+				Full Stack Development<br>
+				MERN, Php, Scss, Mongo, Mysql, Firebase  
+				</h6>	
 			</div>
-		</nav>
-		<ul class="sidenav" id="mobile-demo">
-		    <li><a href="#about">About</a></li>
-			<li><a href="#skill">Skills</a></li>
-			<li><a href="#certification">Certifications</a></li>
-			<li><a href="#experience">Experience</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-		<img src="./assets/heroFg.jpg"  height="300"><br>
-		<h4 class="amber-text">Rishabh Verma</h4>
-		<p>An Aspiring Software Developer</p>
-	</div>
-
-
-	<div class="about" id="about">
-		<div class="container row">
-			<div class="col m4 s12">
-				<img src="./assets/heroFg.jpg" class="z-depth-3" width="100%">
+			<div class="container">
+				<span class="material-icons circle md-36 right">smartphone</span>
+				<h6 style="text-align: right;padding-right: 10px;letter-spacing: 0.1rem;">
+				Application developemnt<br>
+				Android Studio(Java),Flutter,Tkinter,Electron	
+				</h6>	
 			</div>
-			<div class="col m8 s12">
-				<p class="flow-text">About Me</p>
-				<p>My name is Rishabh Verma.I am a 3rd year CSE B.Tech student of 
-				SRM Institute of Science and Technology,Chennai.I am a basic
-				web and app developer and machine learning enthusiast.</p>
-			<br><br>
-				<div class="box">
-					<h6>Eductional Background</h6>
-					Computer Science Engineering (Sixth Semester)<br>
-					SRM Institute of Science and Technology : 83.6%<br>
-					12th CBSE Board<br>
-					DAV Adityapaur,Jamshedpur : 78.4%<br>
-					10th ICSE Board<br>
-					Don Bosco Academy, Digha : 88.7%<br>		
+			<div class="container">
+				<span class="material-icons circle md-36 left">functions</span>
+				<h6 style="text-align: left;padding-left: 10px;letter-spacing: 0.1rem;">
+				Machine Learning<br>
+				ML enthusiast, worked on elementary recommendation systems	
+				</h6>	
 			</div>
+			<div class="container">
+				<span class="material-icons circle md-36 right">code</span>
+				<h6 style="text-align: right;padding-right: 10px;letter-spacing: 0.1rem;">
+				Basic Programming<br>
+				Programming knowledge in C,C++,Java,Python,Javascript	
+				</h6>	
 			</div>
 		</div>
-	</div>
 
-	
-	<div class="skill" id="skill">
-	<h4 class="white-text center">Skills</h4><br>
-		<div class="container">
-			<span class="material-icons circle md-36 left">web</span>
-			<h6 style="text-align: left;padding-left: 10px;letter-spacing: 0.1rem;">
-			Full Stack Development<br>
-			MERN, Php, Scss, Mongo, Mysql, Firebase  
-		    </h6>	
+		<div class="certification parallax-container scrollspy" id="certification">
+			<div class="parallax">
+				<div class="material-placeholder"><img src="assets/coffee.jpg" class="responsive-img"></div>	
 			</div>
-		<div class="container">
-			<span class="material-icons circle md-36 right">smartphone</span>
-			<h6 style="text-align: right;padding-right: 10px;letter-spacing: 0.1rem;">
-			Application developemnt<br>
-			Android Studio(Java),Flutter,Tkinter,Electron	
-		    </h6>	
+			<div>
+				<h4 class="white-text center">Certifications</h4>
+				<div class="carousel">
+					<a class="carousel-item" ><img src="./assets/heroBg.jpg"></a>
+					<a class="carousel-item" ><img src="./assets/heroBg.jpg"></a>
+					<a class="carousel-item" ><img src="./assets/heroBg.jpg"></a>
+				</div>	
+			</div>
+		</div> 
+
+
+		<div id="experience" class="experience scrollspy" style="padding: 10% 0;background: #121639;">
+			<div class="container">
+				<h5>My Experiece</h5>
+				<br><br>
+				<div style="display: flex;justify-content: space-between;">
+					<div class="exp_box">
+						<span class="material-icons md-48">memory</span><br>
+						<p class="flow-text">
+							<span class="exp_title">Internship @ Tata</span><br>
+							Made an Asset Management System using Django
+						</p>
+					</div>
+					<div class="exp_box">
+						<span class="material-icons md-48">code</span><br>
+						<p class="flow-text">
+							<span class="exp_title">Internship @ Gmetri</span>
+							<br>Worked on react based components and scss.
+						</p>
+					</div>
+					<div class="exp_box">
+						<span class="material-icons md-48">smartphone</span><br>
+						<p class="flow-text">
+							<span class="exp_title">Internship @ MediCap</span><br>
+							Made backend for school management system using Node
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="container">
-			<span class="material-icons circle md-36 left">functions</span>
-			<h6 style="text-align: left;padding-left: 10px;letter-spacing: 0.1rem;">
-			Machine Learning<br>
-			ML enthusiast, worked on elementary recommendation systems	
-		    </h6>	
-		</div>
-		<div class="container">
-			<span class="material-icons circle md-36 right">code</span>
-			<h6 style="text-align: right;padding-right: 10px;letter-spacing: 0.1rem;">
-			Basic Programming<br>
-			Programming knowledge in C,C++,Java,Python,Javascript	
-		    </h6>	
-		</div>
-		
-
-	</div>
-
-<div class="certification parallax-container" id="certification">
-	<div class="parallax">
-		<div class="material-placeholder"><img src="assets/coffee.jpg" class="responsive-img"></div>	
-	</div>
-	<div>
-		<h4 class="white-text center">Certifications</h4>
-    <div class="carousel">
-    <a class="carousel-item" href="#three!"><img src="./assets/heroBg.jpg"></a>
-    <a class="carousel-item" href="#four!"><img src="./assets/heroBg.jpg"></a>
-    <a class="carousel-item" href="#five!"><img src="./assets/heroBg.jpg"></a>
-	</div>	
-</div>
-</div> 
 
 
-<div id="experience" class="experience" style="padding: 10% 0;background: #121639;">
-	<div class="container">
-		<h5>My Experiece</h5>
-		<br><br>
-		<div style="display: flex;justify-content: space-between;">
-			<div style="min-width:200px;width: 30%;border-radius:5px;border: 2px solid red;padding: 10px;">
-				<span class="material-icons md-48">memory</span><br>
-				<p class="flow-text">Internship@Tata<br>
-				Made an Asset Management System using Django</p>
-			</div>
-			<div style="min-width:200px;width: 30%;border-radius:5px;border: 2px solid red;padding: 10px;">
-				<span class="material-icons md-48">code</span><br>
-				<p class="flow-text">Internship@Gmetri<br>
-				Worked on react based components and scss</p>
-			</div>
-			<div style="min-width:200px;width: 30%;border-radius:5px;border: 2px solid red;padding: 10px;">
-				<span class="material-icons md-48">smartphone</span><br>
-				<p class="flow-text">Internship@MediCap<br>
-				Made backend for school management system using Node</p>
-			</div>
+
+
+
+		<div id="contact" class="contact scrollspy" style="background: rgb(2, 6, 51) none repeat scroll 0% 0%; color: rgb(255, 255, 255);padding: 10vw 0;">
+
+			<form class="container form">
+				<h3>Contact Me..</h3>
+				<div class="input-field">
+					<i class="material-icons prefix">email</i>
+					<input type="email" id="email">
+					<label for="email">Email</label>
+				</div>
+				<div class="input-field">
+					<i class="material-icons prefix">subject</i>
+					<textarea id="subject" class="materialize-textarea" style="height: 45px;"></textarea>
+					<label for="subject">Subject</label>
+				</div>
+				<div class="input-field">
+					<i class="material-icons prefix">message</i>
+					<textarea id="message" class="materialize-textarea" style="height: 45px;"></textarea>
+					<label for="message">Message</label>
+				</div>
+				<div class="input-field" style="text-align: center;">
+					<button class="btn blue darken-4">Submit</button>
+				</div>
+			</form>
 
 		</div>
-	</div>
-</div>
 
 
 
+		<footer class="page-footer" style="background: #09041c;">
 
-
-<div id="contact" class="contact" style="background: rgb(2, 6, 51) none repeat scroll 0% 0%; color: rgb(255, 255, 255);padding: 10vw 0;">
-
-		<form class="container" style="background: rgba(2, 6, 70,0.8) none repeat scroll 0% 0%; color: rgb(255, 255, 255); box-shadow: rgb(0, 0, 0) 0px -2px 10px;
-		padding: 5px 20px;border-radius: 10px;">
-			<h3>Contact Me..</h3>
-			<div class="input-field">
-				<i class="material-icons prefix">email</i>
-				<input type="email" id="email">
-				<label for="email">Email</label>
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5>More About Me</h5>
+						<p>I am a tech ethusiast, who loves to code and binge watch.<br>
+						Some of my hobbies are:</p>
+						<span class="material-icons tooltipped" data-tooltip="Upbeat Music">queue_music</span>
+						<span class="material-icons tooltipped" data-tooltip="Anime | Series | Movies | Books">video_library</span>
+						<span class="material-icons tooltipped" data-tooltip="Fiction Writing">menu_book</span>
+					</div>
+					<div class="col l4 offset-l2 s12">
+						<h5 class="white-text">Connect</h5>
+						<ul>
+							<li><a class="grey-text text-lighten-3" href="https://facebook.com/rvstowrn" target="_blank">Facebook</a></li>
+							<li><a class="grey-text text-lighten-3" href="https://linkedin.com/in/rishabhverma4488" target="_blank">Linked In</a></li>
+							<li><a class="grey-text text-lighten-3" href="https://github.com/rvstowrn" target="_blank">Github</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
-			<div class="input-field">
-				<i class="material-icons prefix">subject</i>
-				<textarea id="message" class="materialize-textarea" style="height: 45px;"></textarea>
-				<label for="message">Subject</label>
+			<div class="footer-copyright" style="background: #10011a; ">
+				<div class="container center-align">Made By Rishabh Verma</div>
 			</div>
-			<div class="input-field">
-				<i class="material-icons prefix">message</i>
-				<textarea id="message" class="materialize-textarea" style="height: 45px;"></textarea>
-				<label for="message">Message</label>
-			</div>
-			<center>
-			<div class="input-field">
-				<button class="btn blue darken-4">Submit</button>
-			</div>
-			</center>
-		</form>
-		
-</div>
+		</footer>
 
+		<div id="fab_btn" class="fixed-action-btn">
+			<a class="btn-floating btn-large blue" href="#landing">
+				<i class="large material-icons">keyboard_arrow_up</i>
+			</a>
+		</div>
 
+		<script type="text/javascript" src="app.js"></script>
 
-<footer class="page-footer" style="background: #09041c;">
-
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5>More About Me</h5>
-          <p>I am a tech ethusiast, anime loving character who leves to spend time coding and binge watching.<br>
-          Some of my hobbies are:</p>
-		<span class="material-icons tooltipped" data-tooltip="Upbeat Music">queue_music</span>
-		<span class="material-icons tooltipped" data-tooltip="Anime | Series | Movies | Books">video_library</span>
-		<span class="material-icons tooltipped" data-tooltip="Fiction Writing">menu_book</span>
-
-
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="https://facebook.com/rvstowrn" target="_blank">Facebook</a></li>
-            <li><a class="grey-text text-lighten-3" href="https://linkedin.com/in/rishabhverma4488" target="_blank">Linked In</a></li>
-            <li><a class="grey-text text-lighten-3" href="https://github.com/rvstowrn" target="_blank">Github</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright" style="background: #040417; ">
-      <div class="container center-align">Made By Rishabh Verma</div>
-    </div>
-  
-</footer>
-<script type="text/javascript" src="app.js"></script>
-</body>
+	</body>
 </html>
