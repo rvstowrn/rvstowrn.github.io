@@ -109,8 +109,8 @@ nav a{
 	z-index: 100;
 	border: 1px solid white;;
 	justify-content: start;
+	transform: scaleX(0.95);
 }
-
 
 .skill-wrapper::after{
 	content: '';
@@ -136,13 +136,22 @@ nav a{
 
 .skill-container > ul{
 	text-align: left;
-	padding-top: 50px;
-	padding-left: 50px;
+	padding: 20px 30px;
 }
 .skill-container > ul > li{
 	list-style-type:disc;
 }
 
+.skill-container .chip{
+	display: block;
+	width: max-content;
+	padding: 0 20px;
+	color: white;
+	background: linear-gradient(145deg, #321d8f, #2a1879);
+	box-shadow:  5px 5px 10px #281772,-5px -5px 10px #361f9a;
+	margin-bottom: 10px !important;
+	letter-spacing: 2px;
+}
 
 .sidenav{
 	background: #2f1b86;
@@ -167,8 +176,7 @@ nav a{
 	position: absolute;
 	top: 10px;
 	right: 10px;
-	color:#39ff14
-
+	color:#39ff14;
 }
 
 .exp_text{
