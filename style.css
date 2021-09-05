@@ -156,6 +156,13 @@ nav a{
 .sidenav{
 	background: #2f1b86;
 }
+
+.sidenav a{
+	color: white !important;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
 .carousel-item{
 	height: 400px !important;
 	width: 575px !important;
